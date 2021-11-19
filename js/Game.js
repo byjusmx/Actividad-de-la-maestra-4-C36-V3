@@ -116,7 +116,7 @@ class Game {
     this.resetButton.class("resetButton");
     this.resetButton.position(width / 2 + 230, 100);
 
-    this.leadeboardTitle.html("Posición");
+    this.leadeboardTitle.html("Puntuación");
     this.leadeboardTitle.class("resetText");
     this.leadeboardTitle.position(width / 3 - 60, 40);
 
@@ -394,7 +394,7 @@ class Game {
 
   showRank() {
     swal({
-      title: `¡Impresionante!${"\n"}Posición{"\n"}${player.rank}`,
+      title: `¡Impresionante!${"\n"}Posición${"\n"}${player.rank}`,
       text: "Llegaste a la meta con éxito",
       imageUrl:
         "https://raw.githubusercontent.com/vishalgaddam873/p5-multiplayer-car-race-game/master/assets/cup.png",
